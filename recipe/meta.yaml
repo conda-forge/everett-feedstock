@@ -20,11 +20,13 @@ requirements:
     - python
   run:
     - python
+    - configobj
 
 test:
   imports:
     - everett
     - everett.manager
+    - everett.component
 
 about:
   home: "https://github.com/willkg/everett"
