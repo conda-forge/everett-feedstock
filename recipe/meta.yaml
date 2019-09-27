@@ -1,5 +1,5 @@
 {% set name = "everett" %}
-{% set version = "1.0.2" %}
+{% set version = "0.9" %}
 
 package:
   name: "{{ name|lower }}"
@@ -7,11 +7,11 @@ package:
 
 source:
   url: "https://github.com/willkg/everett/archive/v{{ version }}.tar.gz"
-  sha256: "472c1336c912a4c79bd6d72b8b2cf76f3e256a46684f8299c297e27fcc616f95"
+  sha256: "1f116a1a8aa8b1ee4c4b9d63fe97ae6a0fa814e554b5de4979dd5343440ca1dc"
 
 build:
   noarch: python
-  number: 1
+  number: 0
   script: "{{ PYTHON }} -m pip install . -vv"
 
 requirements:
@@ -20,11 +20,11 @@ requirements:
     - python
   run:
     - python
+    - configobj
 
 test:
   imports:
     - everett
-    - everett.ext
     - everett.manager
     - everett.component
 
