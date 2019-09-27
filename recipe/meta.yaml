@@ -24,9 +24,7 @@ requirements:
 test:
   imports:
     - everett
-    - everett.ext
     - everett.manager
-    - everett.component
 
 about:
   home: "https://github.com/willkg/everett"
