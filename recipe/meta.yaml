@@ -1,5 +1,5 @@
 {% set name = "everett" %}
-{% set version = "2.0.0" %}
+{% set version = "2.0.1" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://github.com/willkg/everett/archive/v{{ version }}.tar.gz
-  sha256: 688f7b072c03f9a94ed9a0009ba753ff917c02079756e504258e747cb77afbbd
+  sha256: e333188cea986f3dceafec8eb5e8385d70ed93672762e984c86c2c5359e2d558
 
 
 build:
