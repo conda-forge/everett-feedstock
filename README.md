@@ -1,11 +1,11 @@
-About everett
-=============
+About everett-feedstock
+=======================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/everett-feedstock/blob/main/LICENSE.txt)
 
 Home: https://github.com/willkg/everett
 
 Package license: MPL-2.0
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/everett-feedstock/blob/main/LICENSE.txt)
 
 Summary: Configuration library for Python applications
 
